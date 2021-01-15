@@ -1,0 +1,23 @@
+{
+  "name": "use-click-outside-close",
+  "version": "1.0.0",
+  "description": "",
+  "main": "use-click-outside.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarkis1231/use-click-outside.git"
+  },
+  "author": "sarkis kozanoghli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarkis1231/use-click-outside/issues"
+  },
+  "homepage": "https://github.com/sarkis1231/use-click-outside#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
