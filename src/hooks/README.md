@@ -1,4 +1,4 @@
-> React hook to execute callback when a click is happened outside of component.
+> React hook to execute callback when a click is happened outside of html element.
 
 ## Install
 

@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 
-function useOnClickOutside(ref, handler) {
+function useOnClickOutside(ref, handler, eventType) {
     useEffect(() => {
         const listener = event => {
-            // Do nothing if clicking ref's element or descendent elements
+    
             if (!ref.current || ref.current.contains(event.target)) {
                 return;
             }
@@ -13,10 +13,14 @@ function useOnClickOutside(ref, handler) {
 
         document.addEventListener('mousedown', listener);
         document.addEventListener('touchstart', listener);
+        document.addEventListener(eventType, listener);
+
+
 
         return () => {
             document.removeEventListener('mousedown', listener);
             document.removeEventListener('touchstart', listener);
+            document.addEventListener(eventType, listener);
         };
     }, [ref, handler]);
 }
