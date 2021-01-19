@@ -19,5 +19,12 @@
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "keywords": [
+    "custom react hook",
+    "click outside",
+    "useClickOutside",
+    "use-click-outside-close",
+    "React hook click outside"
+  ]
 }
